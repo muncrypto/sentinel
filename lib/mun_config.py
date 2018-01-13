@@ -34,7 +34,7 @@ class MunConfig():
         creds = {key: value for (key, value) in match}
 
         # standard Mun defaults...
-        default_port = 12547 if (network == 'mainnet') else 22547
+        default_port = 12457 if (network == 'mainnet') else 22457
 
         # use default port for network if not specified in mun.conf
         if not ('port' in creds):
